@@ -14,7 +14,7 @@ body{
     color: 	rgb(232,232,232);
     background-color: rgb(40,40,40);
     position: relative;
-    
+
 }
 .appTitle{
     text-align: center;
@@ -52,16 +52,22 @@ body{
 .menuButton{
    color: 	rgb(232,232,232);
    background-color: rgb(40,40,40);
-   border: 0px;
    font-size: 45px;
    height: 50px;
    width: 50px;
    border: 1px solid rgb(245,245,245);
    border-radius: 50%;
-   
-   
+
+
 }
 .menuButton:hover{
     color:  rgb(40,40,40);
     background-color: rgb(232,232,232);
+		cursor: pointer;
+}
+
+.fa-plus-circle {
+	position: relative;
+  top: 50%;
+  transform: translateY(-9%);
 }
