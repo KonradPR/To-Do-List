@@ -1,1 +1,49 @@
-
+*{ /* reseting styling */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.mainContainer{
+    width: 360px;
+    height: 720px;
+    color: 	rgb(232,232,232);
+    background-color: rgb(40,40,40);
+    position: relative;
+    
+}
+.appTitle{
+    text-align: center;
+}
+.list{
+    width: inherit;
+}
+.task{
+    border-bottom: 1px solid rgb(245,245,245);
+    border-top: 1px solid rgb(245,245,245);
+    border-collapse: collapse;
+    padding: 14px;
+}
+.important{
+    background-color: rgb(255, 153, 51);
+}
+.mild{
+    background-color: rgb(122,204,40);
+}
+.cold{
+    background-color: rgb(102,204,153);
+}
+.superImportant{
+    background-color: rgb(204,0,102);
+}
+.menu{
+    border-top: 1px solid rgb(245,245,245);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: inherit;
+}
