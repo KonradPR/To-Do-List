@@ -6,3 +6,9 @@ $("document").ready(function(){
        $("#addMenu").addClass("visible"); 
     });
 });
+  /* button event for hiding the div*/
+    $("#return1").click(function(e){
+       $("#addMenu").removeClass("visible");
+       $("#addMenu").addClass("invisible"); 
+    });
+});
