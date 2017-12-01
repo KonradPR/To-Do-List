@@ -71,3 +71,32 @@ body{
   top: 50%;
   transform: translateY(-9%);
 }
+/* styles for the adding button*/
+.secondContaianer{
+    width: 360px;
+    height: 720px;
+    color: 	rgb(232,232,232);
+    background-color: rgb(40,40,40);
+    position: absolute;
+    top: 0;
+}
+.invisible{
+    visibility: hidden;
+    z-index:0;
+}
+.visible{
+    visibility: visible;
+    z-index:2;
+}
+.returnButton{
+    color: 	rgb(232,232,232);
+    background-color: rgb(40,40,40);
+    border: 0px;
+    border-top: 1px solid rgb(245,245,245);
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: inherit;
+    text-align: center;
+    font-size: 40px;
+}
