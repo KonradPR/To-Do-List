@@ -1,14 +1,9 @@
-$("document").ready(function(){
-    
-    /* button event for showing the div */
-    $("#add").click(function(e){
-       $("#addMenu").removeClass("invisible");
-       $("#addMenu").addClass("visible");
-    });
-});
-  /* button event for hiding the div*/
-    $("#return1").click(function(e){
-       $("#addMenu").removeClass("visible");
-       $("#addMenu").addClass("invisible");
-    });
-});
+const list = $('#list');
+const	task = $('<li class="task"></li>');
+
+function addTask() {
+	$('#add').click(function(){
+		list.append(task);
+		//TODO: add text with new task to li element
+	});
+}
